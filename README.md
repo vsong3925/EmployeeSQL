@@ -1,6 +1,6 @@
 # EmployeeSQL
 
-This projects uses pgAdmin SQL to analyze employees information of an cooporation from the 1980s and the 1990s. All that remain of the database of employees from that period are six CSV files. This project includes four major steps - data modeling, data engineering (SQL), data anlysis (SQL), data visualization (Python and Matplotlib). In the data anlysis step, it uses **inner join** and **left join** to retrieve data from multiple tables. It uses **where** to set parameters to analyze data that meet certain criteria and uses **order by** to sort data in a desired order. It also utitlized count as and group by to list the frequency count of a selected group of data. Please see details below.
+This project uses pgAdmin SQL to analyze employees information of an cooporation from the 1980s and the 1990s. All that remain of the database of employees from that period are six CSV files. This project includes four major steps - data modeling, data engineering (SQL), data anlysis (SQL), data visualization (Python and Matplotlib). In the data anlysis step, it uses **inner join** and **left join** to retrieve data from multiple tables. It uses **where** to set parameters to analyze data that meet certain criteria and uses **order by** to sort data in a desired order. It also utitlized count as and group by to list the frequency count of a selected group of data. Please see details below.
 
 ![images/ERD.png](images/sql.png)
 
@@ -17,7 +17,7 @@ This projects uses pgAdmin SQL to analyze employees information of an cooporatio
 ### Step 3: Data Anlysis
 Here are the guided questions.
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
-- ![images/task1.PNG](images/task1.PNG)
+- ![images/task1.png](images/task1.png)
 -
 2. List first name, last name, and hire date for employees who were hired in 1986.
 - ![images/task2.png](images/task2.png)
@@ -45,11 +45,11 @@ Here are the guided questions.
 The last step is to visualize the data by importing the SQL database into Pandas by using sqlalchemy. 
 
 * Import the SQL database into Pandas
-* - ![images/importsql.png]
+* - ![images/importSQL.png]
 
 * Create a histogram to visualize the most common salary ranges for employees.
-* * - ![images/histogram.png]
+* * - ![images/Salary-Range.png]
 
 * Create a bar chart of average salary by title.
-* * - ![images/barchart.png]
+* * - ![images/Average_Salary_by_Titles.png.png]
 
