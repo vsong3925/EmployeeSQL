@@ -45,11 +45,11 @@ Here are the guided questions.
 The last step is to visualize the data by importing the SQL database into Pandas by using sqlalchemy. 
 
 * Import the SQL database into Pandas
-* - ![images/importSQL.png]
+* - ![images/importSQL.png](images/importSQL.png)
 
 * Create a histogram to visualize the most common salary ranges for employees.
-* * - ![images/Salary-Range.png]
+* * - ![images/Salary-Range.png](images/Salary_Range.png)
 
 * Create a bar chart of average salary by title.
-* * - ![images/Average_Salary_by_Titles.png.png]
+* * - ![images/Average_Salary_by_Titles.png](images/Average_Salary_by_Titles.png)
 
