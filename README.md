@@ -2,8 +2,6 @@
 
 This project uses pgAdmin SQL to analyze employees information of an cooporation from the 1980s and the 1990s. All that remain of the database of employees from that period are six CSV files. This project includes four major steps - data modeling, data engineering (SQL), data anlysis (SQL), data visualization (Python and Matplotlib). In the data anlysis step, it uses **inner join** and **left join** to retrieve data from multiple tables. It uses **where** to set parameters to analyze data that meet certain criteria and uses **order by** to sort data in a desired order. It also utitlized count as and group by to list the frequency count of a selected group of data. Please see details below.
 
-![images/ERD.png](images/sql.png)
-
 ### Step 1: Date Modeling
 * Inspect the CSVs and sketch out an ERD of the tables.
 * ![images/ERD.png](images/ERD.png)
